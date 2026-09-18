@@ -6,7 +6,7 @@
 }
 *{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth;scroll-padding-top:96px}
-body{font-family:Inter,sans-serif;background:var(--bg);color:var(--text);line-height:1.65;overflow-x:hidden;transition:background .3s,color .3s}
+body{overflow:hidden; font-family:Inter,sans-serif;background:var(--bg);color:var(--text);line-height:1.65;overflow-x:hidden;transition:background .3s,color .3s}
 body.dark{--bg:#07111d;--surface:#0d1a29;--text:#E5EDF6;--muted:#94A3B8;--border:rgba(255,255,255,.10);--shadow:0 24px 70px rgba(0,0,0,.34)}
 img{display:block;max-width:100%}
 a{text-decoration:none;color:inherit}
