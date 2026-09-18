@@ -119,3 +119,13 @@ input,select,textarea{width:100%;border:1px solid var(--border);background:var(-
   :root{--container:calc(100% - 24px)}h1{font-size:clamp(2.75rem,13vw,4.4rem)}h2{font-size:clamp(2rem,10vw,3.2rem)}.section{padding:72px 0}.brand-copy small{display:none}.hero{padding-top:110px}.hero-visual{min-height:430px}.image-shell{height:390px;border-radius:24px}.floating-stat{min-width:120px;padding:12px 13px}.stat-one{top:80px;left:-4px}.stat-two{top:10px}.stat-three{bottom:10px}.hero-scroll-hint{display:none}.feature-grid,.services-grid{grid-template-columns:1fr}.service-card>img{height:230px}.input-grid{grid-template-columns:1fr}.calc-results{grid-template-columns:1fr}.primary-result{grid-column:auto}.calculator-card{padding:22px}.gallery{grid-template-columns:1fr;grid-auto-rows:270px}.gallery-item.tall,.gallery-item.wide{grid-row:auto;grid-column:auto}.before-after{height:390px}.image-card{height:430px}.cleaning-features{grid-template-columns:1fr}.mini-timeline{grid-template-columns:1fr}.mini-timeline>div{border-right:0}.benefit-art{height:430px}.testimonial-card{padding:28px}.about-collage{height:470px}.about-main{width:78%}.about-small{width:44%;height:30%}.about-stats{grid-template-columns:1fr 1fr}.about-stats>div{border-right:0;border-bottom:1px solid var(--border)}.cta-banner{padding:34px 22px;border-radius:25px}.cta-actions{flex-direction:column}.contact-form{padding:20px}.footer-grid{grid-template-columns:1fr}.footer-brand{grid-column:auto}.footer-bottom{flex-direction:column}.lightbox{padding:15px}.lightbox-nav{display:none}.whatsapp-float,.back-to-top{right:14px}.site-header .brand-mark{width:38px;height:38px}.theme-toggle{display:none}
 }
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}.reveal{opacity:1!important;transform:none!important}}
+
+/* Font Awesome icon alignment */
+i[class*="fa-"]{line-height:1;display:inline-block}
+.icon-box i{font-size:1.05rem}
+.service-body>span i{margin-right:4px}
+.process-icon i{font-size:1.25rem}
+.energy-orbit i{font-size:1rem}
+.whatsapp-float i{font-size:1.35rem}
+.socials i{font-size:.9rem}
+.cta-bg-icon i{font-size:inherit}
