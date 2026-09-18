@@ -23,6 +23,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preconnect" href="https://images.unsplash.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
   <link rel="stylesheet" href="style.css">
 
   <script type="application/ld+json">
@@ -98,7 +99,7 @@
 
       <div class="nav-actions">
         <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
-          <span class="sun">☀</span><span class="moon">☾</span>
+          <span class="sun"><i class="fa-solid fa-sun"></i></span><span class="moon"><i class="fa-solid fa-moon"></i></span>
         </button>
         <a class="btn btn-primary nav-cta magnetic" href="#contact">Get Free Solar Quote</a>
         <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">
@@ -125,11 +126,11 @@
           <h1>Power Your Home With <span class="gradient-text">Smart Solar Energy.</span></h1>
           <p class="hero-lead">High-quality rooftop solar systems for homes, businesses and industries across Maharashtra — designed to lower electricity costs and deliver dependable clean energy.</p>
           <div class="hero-actions">
-            <a class="btn btn-primary btn-lg magnetic ripple" href="#contact">Get Free Quote <span>↗</span></a>
-            <a class="btn btn-secondary btn-lg magnetic" href="#projects">View Projects <span>→</span></a>
+            <a class="btn btn-primary btn-lg magnetic ripple" href="#contact">Get Free Quote <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            <a class="btn btn-secondary btn-lg magnetic" href="#projects">View Projects <i class="fa-solid fa-arrow-right"></i></a>
           </div>
           <div class="hero-trust">
-            <div class="avatar-stack"><span>SX</span><span>☀</span><span>⚡</span></div>
+            <div class="avatar-stack"><span>SX</span><i class="fa-solid fa-sun"></i><i class="fa-solid fa-bolt"></i></div>
             <div><strong>Smart Solar for Smart People.</strong><small>Residential · Commercial · Industrial</small></div>
           </div>
         </div>
@@ -167,12 +168,12 @@
           <p>From initial survey to commissioning and after-sales support, every stage is designed around quality, safety and long-term value.</p>
         </div>
         <div class="feature-grid stagger-group">
-          <article class="feature-card spotlight-card reveal"><span class="icon-box">✓</span><h3>Quality Installation</h3><p>Clean routing, secure mounting, safe electrical work and professional site execution.</p></article>
-          <article class="feature-card spotlight-card reveal"><span class="icon-box">◇</span><h3>Premium Components</h3><p>System components selected for reliability, efficiency and project requirements.</p></article>
-          <article class="feature-card spotlight-card reveal"><span class="icon-box">⚡</span><h3>Fast Installation</h3><p>Structured planning and an efficient installation workflow to reduce disruption.</p></article>
-          <article class="feature-card spotlight-card reveal"><span class="icon-box">25</span><h3>Long-Term Warranty</h3><p>Clear guidance on manufacturer warranties and system protection options.</p></article>
-          <article class="feature-card spotlight-card reveal"><span class="icon-box">↔</span><h3>Net Metering Support</h3><p>Assistance with documentation and coordination for applicable grid processes.</p></article>
-          <article class="feature-card spotlight-card reveal"><span class="icon-box">₹</span><h3>Affordable EMI</h3><p>Ask about financing pathways available for eligible residential and business projects.</p></article>
+          <article class="feature-card spotlight-card reveal"><span class="icon-box"><i class="fa-solid fa-circle-check"></i></span><h3>Quality Installation</h3><p>Clean routing, secure mounting, safe electrical work and professional site execution.</p></article>
+          <article class="feature-card spotlight-card reveal"><span class="icon-box"><i class="fa-solid fa-gem"></i></span><h3>Premium Components</h3><p>System components selected for reliability, efficiency and project requirements.</p></article>
+          <article class="feature-card spotlight-card reveal"><span class="icon-box"><i class="fa-solid fa-bolt"></i></span><h3>Fast Installation</h3><p>Structured planning and an efficient installation workflow to reduce disruption.</p></article>
+          <article class="feature-card spotlight-card reveal"><span class="icon-box"><i class="fa-solid fa-shield-halved"></i></span><h3>Long-Term Warranty</h3><p>Clear guidance on manufacturer warranties and system protection options.</p></article>
+          <article class="feature-card spotlight-card reveal"><span class="icon-box"><i class="fa-solid fa-right-left"></i></span><h3>Net Metering Support</h3><p>Assistance with documentation and coordination for applicable grid processes.</p></article>
+          <article class="feature-card spotlight-card reveal"><span class="icon-box"><i class="fa-solid fa-indian-rupee-sign"></i></span><h3>Affordable EMI</h3><p>Ask about financing pathways available for eligible residential and business projects.</p></article>
         </div>
       </div>
     </section>
@@ -194,7 +195,7 @@
         <div class="calculator-card glass reveal" data-reveal="right">
           <form id="solarCalculator">
             <div class="form-row">
-              <label for="monthlyBill">Monthly electricity bill <span>₹</span></label>
+              <label for="monthlyBill">Monthly electricity bill <span><i class="fa-solid fa-indian-rupee-sign"></i></span></label>
               <div class="range-value"><strong id="billDisplay">₹5,000</strong></div>
               <input type="range" id="monthlyBill" min="1000" max="100000" step="500" value="5000">
             </div>
@@ -242,27 +243,27 @@
         <div class="services-grid">
           <article class="service-card reveal">
             <img loading="lazy" src="https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?auto=format&fit=crop&w=1000&q=82" alt="Residential rooftop solar installation">
-            <div class="service-body"><span>01</span><h3>Residential Solar</h3><p>Smart rooftop systems designed around household consumption and usable roof area.</p><a href="#contact">Learn More →</a></div>
+            <div class="service-body"><span><i class="fa-solid fa-house"></i> 01</span><h3>Residential Solar</h3><p>Smart rooftop systems designed around household consumption and usable roof area.</p><a href="#contact">Learn More →</a></div>
           </article>
           <article class="service-card reveal">
             <img loading="lazy" src="https://images.unsplash.com/photo-1497440001374-f26997328c1b?auto=format&fit=crop&w=1000&q=82" alt="Commercial solar rooftop">
-            <div class="service-body"><span>02</span><h3>Commercial Solar</h3><p>Cost-focused solar projects for offices, schools, hospitals and commercial properties.</p><a href="#contact">Learn More →</a></div>
+            <div class="service-body"><span><i class="fa-solid fa-building"></i> 02</span><h3>Commercial Solar</h3><p>Cost-focused solar projects for offices, schools, hospitals and commercial properties.</p><a href="#contact">Learn More →</a></div>
           </article>
           <article class="service-card reveal">
             <img loading="lazy" src="https://images.unsplash.com/photo-1466611653911-95081537e5b7?auto=format&fit=crop&w=1000&q=82" alt="Industrial renewable energy installation">
-            <div class="service-body"><span>03</span><h3>Industrial Solar</h3><p>Scalable rooftop energy systems for factories, plants and large warehouses.</p><a href="#contact">Learn More →</a></div>
+            <div class="service-body"><span><i class="fa-solid fa-industry"></i> 03</span><h3>Industrial Solar</h3><p>Scalable rooftop energy systems for factories, plants and large warehouses.</p><a href="#contact">Learn More →</a></div>
           </article>
           <article class="service-card reveal">
             <img loading="lazy" src="https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1000&q=82" alt="Solar panel inspection and cleaning">
-            <div class="service-body"><span>04</span><h3>Solar Cleaning System</h3><p>Cleaning solutions that help reduce dust buildup and support consistent generation.</p><a href="#cleaning">Learn More →</a></div>
+            <div class="service-body"><span><i class="fa-solid fa-droplet"></i> 04</span><h3>Solar Cleaning System</h3><p>Cleaning solutions that help reduce dust buildup and support consistent generation.</p><a href="#cleaning">Learn More →</a></div>
           </article>
           <article class="service-card reveal">
             <img loading="lazy" src="https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9?auto=format&fit=crop&w=1000&q=82" alt="Solar maintenance technician">
-            <div class="service-body"><span>05</span><h3>Maintenance & AMC</h3><p>Periodic inspection, cleaning, diagnostics and preventive maintenance plans.</p><a href="#contact">Learn More →</a></div>
+            <div class="service-body"><span><i class="fa-solid fa-screwdriver-wrench"></i> 05</span><h3>Maintenance & AMC</h3><p>Periodic inspection, cleaning, diagnostics and preventive maintenance plans.</p><a href="#contact">Learn More →</a></div>
           </article>
           <article class="service-card reveal">
             <img loading="lazy" src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1000&q=82" alt="Solar consultation and energy planning">
-            <div class="service-body"><span>06</span><h3>Solar Consultation</h3><p>System sizing, rooftop design, net metering guidance and project planning.</p><a href="#contact">Learn More →</a></div>
+            <div class="service-body"><span><i class="fa-solid fa-comments"></i> 06</span><h3>Solar Consultation</h3><p>System sizing, rooftop design, net metering guidance and project planning.</p><a href="#contact">Learn More →</a></div>
           </article>
         </div>
       </div>
@@ -332,7 +333,7 @@
           <div class="image-card parallax-image">
             <img loading="lazy" src="https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=86" alt="Technician inspecting and cleaning solar panels">
           </div>
-          <div class="floating-note glass"><span>💧</span><div><strong>Smarter Cleaning</strong><small>Designed to protect panel surfaces</small></div></div>
+          <div class="floating-note glass"><span><i class="fa-solid fa-droplet"></i></span><div><strong>Smarter Cleaning</strong><small>Designed to protect panel surfaces</small></div></div>
         </div>
         <div class="cleaning-copy reveal" data-reveal="right">
           <span class="eyebrow">Solar Panel Cleaning System</span>
@@ -361,11 +362,11 @@
         <div class="section-head reveal"><span class="eyebrow">Simple Process</span><h2>From roof survey to solar generation.</h2></div>
         <div class="process-line">
           <div class="process-progress" id="processProgress"></div>
-          <article class="process-step reveal"><span>01</span><div class="process-icon">⌂</div><h3>Survey</h3><p>Roof, load and site assessment.</p></article>
-          <article class="process-step reveal"><span>02</span><div class="process-icon">◇</div><h3>Design</h3><p>Layout, sizing and engineering.</p></article>
-          <article class="process-step reveal"><span>03</span><div class="process-icon">⚙</div><h3>Installation</h3><p>Professional system execution.</p></article>
-          <article class="process-step reveal"><span>04</span><div class="process-icon">↔</div><h3>Net Metering</h3><p>Applicable documentation support.</p></article>
-          <article class="process-step reveal"><span>05</span><div class="process-icon">◉</div><h3>Monitoring</h3><p>Performance visibility and care.</p></article>
+          <article class="process-step reveal"><span>01</span><div class="process-icon"><i class="fa-solid fa-house"></i></div><h3>Survey</h3><p>Roof, load and site assessment.</p></article>
+          <article class="process-step reveal"><span>02</span><div class="process-icon"><i class="fa-solid fa-pen-ruler"></i></div><h3>Design</h3><p>Layout, sizing and engineering.</p></article>
+          <article class="process-step reveal"><span>03</span><div class="process-icon"><i class="fa-solid fa-screwdriver-wrench"></i></div><h3>Installation</h3><p>Professional system execution.</p></article>
+          <article class="process-step reveal"><span>04</span><div class="process-icon"><i class="fa-solid fa-right-left"></i></div><h3>Net Metering</h3><p>Applicable documentation support.</p></article>
+          <article class="process-step reveal"><span>05</span><div class="process-icon"><i class="fa-solid fa-chart-line"></i></div><h3>Monitoring</h3><p>Performance visibility and care.</p></article>
         </div>
       </div>
     </section>
@@ -375,18 +376,18 @@
       <div class="container benefits-grid">
         <div class="benefit-art reveal" data-reveal="left">
           <img loading="lazy" src="https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9?auto=format&fit=crop&w=1200&q=85" alt="Clean renewable energy landscape">
-          <div class="energy-orbit"><span>☀</span><span>⚡</span><span>♻</span></div>
+          <div class="energy-orbit"><i class="fa-solid fa-sun"></i><i class="fa-solid fa-bolt"></i><span><i class="fa-solid fa-leaf"></i></span></div>
         </div>
         <div class="benefits-copy reveal" data-reveal="right">
           <span class="eyebrow">Why Go Solar</span>
           <h2>Turn unused roof space into an energy asset.</h2>
           <div class="benefit-list">
-            <article><span>↓</span><div><h3>Save Electricity Bills</h3><p>Offset a portion of grid consumption with on-site solar generation.</p></div></article>
-            <article><span>♻</span><div><h3>Eco Friendly</h3><p>Generate renewable electricity with no fuel combustion at the point of use.</p></div></article>
-            <article><span>⌂</span><div><h3>Increase Property Value</h3><p>A well-designed energy upgrade can add practical utility to a property.</p></div></article>
-            <article><span>✓</span><div><h3>Low Maintenance</h3><p>Modern PV systems have few moving parts and straightforward upkeep needs.</p></div></article>
-            <article><span>₹</span><div><h3>Government Subsidy</h3><p>Eligible residential projects may qualify for current government schemes, subject to applicable rules.</p></div></article>
-            <article><span>25</span><div><h3>Long Life</h3><p>Quality solar modules are designed for decades of outdoor operation.</p></div></article>
+            <article><span><i class="fa-solid fa-arrow-down"></i></span><div><h3>Save Electricity Bills</h3><p>Offset a portion of grid consumption with on-site solar generation.</p></div></article>
+            <article><span><i class="fa-solid fa-leaf"></i></span><div><h3>Eco Friendly</h3><p>Generate renewable electricity with no fuel combustion at the point of use.</p></div></article>
+            <article><span><i class="fa-solid fa-house"></i></span><div><h3>Increase Property Value</h3><p>A well-designed energy upgrade can add practical utility to a property.</p></div></article>
+            <article><span><i class="fa-solid fa-check"></i></span><div><h3>Low Maintenance</h3><p>Modern PV systems have few moving parts and straightforward upkeep needs.</p></div></article>
+            <article><span><i class="fa-solid fa-indian-rupee-sign"></i></span><div><h3>Government Subsidy</h3><p>Eligible residential projects may qualify for current government schemes, subject to applicable rules.</p></div></article>
+            <article><span><i class="fa-solid fa-shield-halved"></i></span><div><h3>Long Life</h3><p>Quality solar modules are designed for decades of outdoor operation.</p></div></article>
           </div>
         </div>
       </div>
@@ -412,9 +413,9 @@
             </article>
           </div>
           <div class="slider-controls">
-            <button id="prevTestimonial" aria-label="Previous testimonial">←</button>
+            <button id="prevTestimonial" aria-label="Previous testimonial"><i class="fa-solid fa-arrow-left"></i></button>
             <div class="slider-dots" id="sliderDots"></div>
-            <button id="nextTestimonial" aria-label="Next testimonial">→</button>
+            <button id="nextTestimonial" aria-label="Next testimonial"><i class="fa-solid fa-arrow-right"></i></button>
           </div>
         </div>
       </div>
@@ -522,13 +523,13 @@
             <div class="contact-info-card">
               <span class="eyebrow">Solar X Renewable Energy Solutions</span>
               <h3>Let’s build your clean-energy plan.</h3>
-              <a href="tel:+917276860846"><span>☎</span><div><small>Call</small><strong>+91 7276860846</strong></div></a>
-              <a href="mailto:solar_x_renewable@gmail.com"><span>✉</span><div><small>Email</small><strong>solar_x_renewable@gmail.com</strong></div></a>
-              <a href="https://www.instagram.com/solar_x_renewable_energy/" target="_blank" rel="noopener"><span>◎</span><div><small>Instagram</small><strong>@solar_x_renewable_energy</strong></div></a>
-              <div class="contact-location"><span>⌖</span><div><small>Location</small><strong>Kolhapur, Maharashtra, India</strong></div></div>
+              <a href="tel:+917276860846"><span><i class="fa-solid fa-phone"></i></span><div><small>Call</small><strong>+91 7276860846</strong></div></a>
+              <a href="mailto:solar_x_renewable@gmail.com"><span><i class="fa-solid fa-envelope"></i></span><div><small>Email</small><strong>solar_x_renewable@gmail.com</strong></div></a>
+              <a href="https://www.instagram.com/solar_x_renewable_energy/" target="_blank" rel="noopener"><span><i class="fa-brands fa-instagram"></i></span><div><small>Instagram</small><strong>@solar_x_renewable_energy</strong></div></a>
+              <div class="contact-location"><span><i class="fa-solid fa-location-dot"></i></span><div><small>Location</small><strong>Kolhapur, Maharashtra, India</strong></div></div>
             </div>
             <div class="map-placeholder" role="img" aria-label="Map placeholder for Kolhapur, Maharashtra">
-              <div class="map-grid"></div><span class="map-pin">⌖</span><strong>Kolhapur, Maharashtra</strong><small>Add your Google Maps embed here</small>
+              <div class="map-grid"></div><span class="map-pin"><i class="fa-solid fa-location-dot"></i></span><strong>Kolhapur, Maharashtra</strong><small>Add your Google Maps embed here</small>
             </div>
           </aside>
         </div>
@@ -538,15 +539,15 @@
 
   <!-- LIGHTBOX -->
   <div class="lightbox" id="lightbox" aria-hidden="true">
-    <button class="lightbox-close" id="lightboxClose" aria-label="Close gallery">×</button>
-    <button class="lightbox-nav prev" id="lightboxPrev" aria-label="Previous image">←</button>
+    <button class="lightbox-close" id="lightboxClose" aria-label="Close gallery"><i class="fa-solid fa-xmark"></i></button>
+    <button class="lightbox-nav prev" id="lightboxPrev" aria-label="Previous image"><i class="fa-solid fa-arrow-left"></i></button>
     <img id="lightboxImage" alt="">
     <div class="lightbox-caption" id="lightboxCaption"></div>
-    <button class="lightbox-nav next" id="lightboxNext" aria-label="Next image">→</button>
+    <button class="lightbox-nav next" id="lightboxNext" aria-label="Next image"><i class="fa-solid fa-arrow-right"></i></button>
   </div>
 
-  <a class="whatsapp-float" href="https://wa.me/917276860846?text=Hi%20Solar%20X%2C%20I%20want%20a%20solar%20quote." target="_blank" rel="noopener" aria-label="Chat on WhatsApp">WA</a>
-  <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+  <a class="whatsapp-float" href="https://wa.me/917276860846?text=Hi%20Solar%20X%2C%20I%20want%20a%20solar%20quote." target="_blank" rel="noopener" aria-label="Chat on WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+  <button class="back-to-top" id="backToTop" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
 
   <footer class="site-footer">
     <div class="container footer-grid">
@@ -557,7 +558,7 @@
       </div>
       <div><h3>Quick Links</h3><a href="#home">Home</a><a href="#services">Services</a><a href="#projects">Projects</a><a href="#about">About</a><a href="#faq">FAQ</a></div>
       <div><h3>Services</h3><a href="#services">Residential Solar</a><a href="#services">Commercial Solar</a><a href="#services">Industrial Solar</a><a href="#cleaning">Panel Cleaning</a><a href="#contact">Maintenance & AMC</a></div>
-      <div><h3>Contact</h3><a href="tel:+917276860846">+91 7276860846</a><a href="mailto:solar_x_renewable@gmail.com">solar_x_renewable@gmail.com</a><p>Kolhapur, Maharashtra, India</p><div class="socials"><a href="https://www.instagram.com/solar_x_renewable_energy/" target="_blank" rel="noopener" aria-label="Instagram">IG</a><a href="#" aria-label="Facebook">FB</a><a href="#" aria-label="YouTube">YT</a><a href="#" aria-label="LinkedIn">IN</a></div></div>
+      <div><h3>Contact</h3><a href="tel:+917276860846">+91 7276860846</a><a href="mailto:solar_x_renewable@gmail.com">solar_x_renewable@gmail.com</a><p>Kolhapur, Maharashtra, India</p><div class="socials"><a href="https://www.instagram.com/solar_x_renewable_energy/" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a><a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a><a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a><a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a></div></div>
     </div>
     <div class="container footer-bottom"><span>© <span id="year"></span> Solar X Renewable Energy Solutions. All rights reserved.</span><span>Designed for a cleaner energy future.</span></div>
   </footer>
